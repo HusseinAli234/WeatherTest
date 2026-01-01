@@ -6,7 +6,9 @@
 (в качестве ориентира используйте `config.py`):
 
 ```env
-DATABASE_URL=postgresql+asyncpg://postgres:postgres@db:5432/postgres
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=postgres
+POSTGRES_DB=mydb
 SECRET_KEY=your_very_secret_key
 OPENWEATHER_API_KEY=your_api_key_here
 ```
